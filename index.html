@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webseum - Create</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div id="logo-box">W</div>
+      <span>Webseum</span>
+    </div>
+    <nav>
+      <a href="index.html" class="current">Create</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="canvas-top">
+      <h1 id="message">Start your art!</h1>
+      <p id="timer">Timer: 1:00</p>
+    </div>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <p class="note">(Timer starts when the canvas is drawn on)</p>
+    <p class="note">When the timer ends, you will directed to the gallery.</p>
+  </main>
+
+  <script src="js/draw.js"></script>
+</body>
+</html>
